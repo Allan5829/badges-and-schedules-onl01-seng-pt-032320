@@ -42,8 +42,9 @@ def printer (attendees)
   end
   attendees.each do |attendee|
     room_number = attendees.index(attendee) + 1
-    room_assignments <<  "Hello, #{attendee}! You'll be assigned to room #{room_number}!"
+    badges_and_room_assignments <<  "Hello, #{attendee}! You'll be assigned to room #{room_number}!"
   end
+  badges_and_room_assignments
 end
 
 
