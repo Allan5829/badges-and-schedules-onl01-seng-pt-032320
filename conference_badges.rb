@@ -23,6 +23,8 @@ def assign_rooms(attendees)
   room_assignments
 end
 
+
+
 def printer (attendees)
   attendees.map do |attendee|
     "Hello, my name is #{attendee}."
@@ -32,3 +34,8 @@ def printer (attendees)
     "Hello, #{attendee}! You'll be assigned to room #{room_number}!"
   end
 end
+
+def printer (attendees)
+end
+
+
