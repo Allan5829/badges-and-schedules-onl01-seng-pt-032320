@@ -27,4 +27,6 @@ def printer (attendees)
   attendees.collect do |attendee|
     "Hello, my name is #{attendee}."
   end
+  
+  
 end
