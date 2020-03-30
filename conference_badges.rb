@@ -24,10 +24,10 @@ def assign_rooms(attendees)
 end
 
 def printer (attendees)
-  attendees.collect do |attendee|
+  attendees.map do |attendee|
     "Hello, my name is #{attendee}."
   end
-  attendees.collect do |attendee|
+  attendees.map do |attendee|
     room_number = attendees.index(attendee) + 1
     "Hello, #{attendee}! You'll be assigned to room #{room_number}!"
   end
